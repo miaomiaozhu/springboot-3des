@@ -51,7 +51,7 @@ public class TripleDESUtil {
     public static void main(String[] args) throws Exception {
         TripleDESUtil des=new TripleDESUtil();
         //加密
-        String input ="abc";
+        String input ="abcd";
         System.out.println("明文："+input);
         byte[] srcData=input.getBytes("utf-8");
         byte[] encryptData=des.encrypt(srcData);
